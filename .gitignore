@@ -1,0 +1,70 @@
+# --- [ Unity / Temp ] --- 
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# --- [ (Builds) ] ---
+*.apk
+*.aab
+*.unitypackage
+*.app
+*.exe
+*.zip
+*.dll
+!/[Aa]ssets/**/*.dll # Разрешаем DLL, если они часть плагинов в Assets
+
+# --- [ Addressables and StreamingAssets ] ---
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/VideoCache/
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# --- [ IDE Files (VS, Rider, Android Studio) ] ---
+.vs/
+.idea/
+.gradle/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svclog
+*.cache
+*.swp
+*.tmp
+.consulo/
+ExportedObj/
+.com.jetbrains.*
+
+# --- [ Debug and Logs ] ---
+*.pdb
+*.mdb
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+sysinfo.txt
+crashlytics-build.properties
+
+# --- [ System Files ] ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# --- [ Plagins / Others ] ---
+/[Aa]ssets/Plugins/Editor/JetBrains*
+# /[Aa]ssets/AssetStoreTools* 
+
+# --- [ Whitelist ] ---
+!/[Aa]ssets/**/*.meta
+!/[Pp]ackages/manifest.json
+!/[Pp]ackages/packages-lock.json
+!/[Pp]rojectSettings/
