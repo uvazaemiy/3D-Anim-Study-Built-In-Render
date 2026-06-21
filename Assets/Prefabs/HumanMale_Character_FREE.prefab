@@ -3358,7 +3358,7 @@ Transform:
   m_GameObject: {fileID: 4384630483973562067}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.122, z: 0}
+  m_LocalPosition: {x: 0, y: 0.239, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3937,7 +3937,7 @@ GameObject:
   - component: {fileID: 7100471569606157004}
   - component: {fileID: 8469674210229701177}
   - component: {fileID: 4983670202953917198}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: HumanMale_Character_FREE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3976,9 +3976,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 920ef6606a6760241877ec88e90a5d6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CharacterController
-  speed: 10
-  rotationSpeed: 10
-  jumpForce: 8.5
+  speed: 7
+  rotationSpeed: 3
+  jumpForce: 7
 --- !u!114 &6684725523067333517
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4039,7 +4039,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 80
   m_CollisionDetection: 0
 --- !u!136 &4983670202953917198
 CapsuleCollider:

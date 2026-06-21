@@ -4,6 +4,19 @@ public class GroundChecker : MonoBehaviour
 {
     public bool isGround = true;
 
+    private Animator animator;
+    
+
+    
+    
+    
+    
+
+    private void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
+
     
     
     
@@ -12,10 +25,12 @@ public class GroundChecker : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         isGround = true;
+        animator.SetBool("IsGround", isGround);
     }
 
     private void OnTriggerExit(Collider other)
     {
         isGround = false;
+        animator.SetBool("IsGround", isGround);
     }
 }
