@@ -7,6 +7,7 @@ public class CharacterController : MonoBehaviour
     [SerializeField] private float jumpForce = 8.5f;
 
     private Animator animator;
+    
     private GroundChecker groundChecker;
     private Rigidbody rb;
     private float currentRotationY = 0f;
