@@ -60,6 +60,11 @@ public class CharacterController : MonoBehaviour
         {
             animator.SetInteger("Attack", 0);
         }
+        
+        if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            animator.SetTrigger("StartDance");
+        }
     }
 
     private void HandleMovement()
