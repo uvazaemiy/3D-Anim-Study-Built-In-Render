@@ -78,23 +78,20 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ae4118b0b0a3c024c94ad77d636666f9, type: 3}
       insertIndex: 1
-      addedObject: {fileID: 7962373329679836005}
+      addedObject: {fileID: -7029309036886346759}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ae4118b0b0a3c024c94ad77d636666f9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4708057567477024161}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ae4118b0b0a3c024c94ad77d636666f9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6477911421449365558}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ae4118b0b0a3c024c94ad77d636666f9, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 7152498321751119936}
   m_SourcePrefab: {fileID: 100100000, guid: ae4118b0b0a3c024c94ad77d636666f9, type: 3}
 --- !u!1 &3999597354412101918 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ae4118b0b0a3c024c94ad77d636666f9, type: 3}
   m_PrefabInstance: {fileID: 4269418268682251343}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &7962373329679836005
+--- !u!114 &-7029309036886346759
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -140,7 +137,7 @@ SphereCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3999597354412101918}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 58b21ed20ae30d8479c99d3bb2b356de, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -154,18 +151,3 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.41
   m_Center: {x: 0, y: 0.02, z: 0}
---- !u!114 &7152498321751119936
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3999597354412101918}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventSystem
-  m_FirstSelected: {fileID: 0}
-  m_sendNavigationEvents: 1
-  m_DragThreshold: 10
