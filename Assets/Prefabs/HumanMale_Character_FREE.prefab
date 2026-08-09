@@ -3976,7 +3976,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 920ef6606a6760241877ec88e90a5d6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CharacterController
-  speed: 7
+  playerConfig: {fileID: 11400000, guid: 5a12353e29b79724792524a350cc54ad, type: 2}
   rotationSpeed: 3
   jumpForce: 7
 --- !u!114 &6684725523067333517

@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class CharacterController : MonoBehaviour
 {
-    [SerializeField] private float speed = 5.5f;
+    [SerializeField] private MyScriptableObject playerConfig;
     [SerializeField] private float rotationSpeed = 10f;
     [SerializeField] private float jumpForce = 8.5f;
 
@@ -11,9 +11,7 @@ public class CharacterController : MonoBehaviour
     private GroundChecker groundChecker;
     private Rigidbody rb;
     private float currentRotationY = 0f;
-
-    
-    
+    private float speed;
     
     
     
@@ -22,6 +20,9 @@ public class CharacterController : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         animator = GetComponent<Animator>();
         groundChecker = GetComponent<GroundChecker>();
+
+        speed = playerConfig.speed;
+        gameObject.name = playerConfig.objectName;
     }
 
     private void Update()
