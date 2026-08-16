@@ -3991,7 +3991,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fee9d3d8070160e42b14b676be558799, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GroundChecker
-  isGround: 1
+  radius: 0.3
+  offset: {x: 0, y: 0.2, z: 0}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 55
+  isGround: 0
 --- !u!95 &7100471569606157004
 Animator:
   serializedVersion: 7

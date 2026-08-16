@@ -24281,6 +24281,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Apple Platform
       objectReference: {fileID: 0}
+    - target: {fileID: 3999597354412101918, guid: bd5725a841472df439c8efaae67d3591, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4380520531861113764, guid: bd5725a841472df439c8efaae67d3591, type: 3}
       propertyPath: m_LocalScale.x
       value: 4
@@ -28264,23 +28268,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4380520531861113764, guid: bd5725a841472df439c8efaae67d3591, type: 3}
   m_PrefabInstance: {fileID: 903384667}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &909195331 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5406682309452712578, guid: a9c4a7013f3b28d469b081465278b492, type: 3}
-  m_PrefabInstance: {fileID: 8056981784491804594}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &909195338
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 909195331}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08b58a0264c7ecf4baa751d159d8da33, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::RaycastPlayer
 --- !u!1001 &909518154
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -67697,10 +67684,6 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 423084106650629088, guid: a9c4a7013f3b28d469b081465278b492, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 431297655799383243, guid: a9c4a7013f3b28d469b081465278b492, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: -22.460976
@@ -68585,10 +68568,6 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 6684725523067333517, guid: a9c4a7013f3b28d469b081465278b492, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6782051104835872898, guid: a9c4a7013f3b28d469b081465278b492, type: 3}
       propertyPath: m_Layer
       value: 3
@@ -68921,13 +68900,12 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedComponents:
+    - {fileID: 1342419571599609533, guid: a9c4a7013f3b28d469b081465278b492, type: 3}
+    m_RemovedGameObjects:
+    - {fileID: 4384630483973562067, guid: a9c4a7013f3b28d469b081465278b492, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 5406682309452712578, guid: a9c4a7013f3b28d469b081465278b492, type: 3}
-      insertIndex: 1
-      addedObject: {fileID: 909195338}
     - targetCorrespondingSourceObject: {fileID: 4285086656793635913, guid: a9c4a7013f3b28d469b081465278b492, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1877491853}

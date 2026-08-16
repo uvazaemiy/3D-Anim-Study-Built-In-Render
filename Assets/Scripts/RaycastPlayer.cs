@@ -2,20 +2,19 @@ using UnityEngine;
 
 public class RaycastPlayer : MonoBehaviour
 {
-    private void Update()
+    private Ray rayFromCamera;
+    private Ray rayForward;
+
+    private void OnDrawGizmos()
     {
-        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        rayFromCamera = Camera.main.ScreenPointToRay(Input.mousePosition);
+        rayForward = new  Ray(transform.position, transform.forward);
         
-        RaycastHit hit;
-
-        if (Physics.Raycast(ray, out hit))
-        {
-            //Debug.Log("Попали в: " + hit.transform.name);
-        }
-    }
-
-    private void OnMouseDown()
-    {
-        Debug.Log(transform.name + " був натиснутий!");
+        Gizmos.color = Color.red;
+        Gizmos.DrawRay(rayFromCamera);
+        Gizmos.DrawRay(rayForward);
+        
+        Gizmos.color = Color.blue;
+        Gizmos.DrawWireSphere(transform.position + Vector3.up * 0.15f, 0.3f);
     }
 }
