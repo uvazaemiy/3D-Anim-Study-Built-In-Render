@@ -4,7 +4,22 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: cbd065ec326239a44833c7a726b591ff
+  - enabled: 1
+    path: Assets/Scenes/Game.unity
+    guid: 7d4cddd1bf763be46ab525dd2de13cd5
+  - enabled: 1
+    path: Assets/Scenes/NavMesh Scene.unity
+    guid: 13d2ad2d75ecdbb499ba7b2ba8dd6cc7
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Car Scene.unity
+    guid: fc28ae022b6a4334a819f4e7f30d7d87
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 289c1b55c9541489481df5cc06664110, type: 3}
   m_UseUCBPForAssetBundles: 0
