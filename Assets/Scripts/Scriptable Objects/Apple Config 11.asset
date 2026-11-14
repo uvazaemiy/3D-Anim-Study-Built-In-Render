@@ -12,7 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f29bd2b410db0f4783ed6dc9f1b538a, type: 3}
   m_Name: Apple Config 11
   m_EditorClassIdentifier: Assembly-CSharp::AppleScriptable
-  appleName: 
-  seedGrowness: 0
   newColor: {r: 0, g: 0, b: 0, a: 0}
   newScale: {x: 0, y: 0, z: 0}

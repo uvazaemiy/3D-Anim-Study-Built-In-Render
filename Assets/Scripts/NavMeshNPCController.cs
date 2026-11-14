@@ -2,10 +2,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class NavMeshNPCController : MonoBehaviour
+public class NavMeshNPCController : MonoBehaviour, ICharacter
 {
     [SerializeField] private Transform[] waypoints;
     [SerializeField] private float stopDistance;
+    public int damage { get; set; }
     
     private NavMeshAgent npcAgent;
     private int currentIndex = 0;
@@ -33,5 +34,10 @@ public class NavMeshNPCController : MonoBehaviour
             
             npcAgent.SetDestination(waypoints[currentIndex].position);
         }
+    }
+
+    public void Fight()
+    {
+        Debug.Log("NPC: Почали бійку!");
     }
 }
